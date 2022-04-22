@@ -1,35 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meetups App
 
-## Getting Started
+<!-- Intro -->
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<!-- - **Feature one** feature description -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- - **Feature one** feature description -->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+<!-- - **Feature one** feature description -->
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Demo
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<!-- Demo app live at [Firebase](http://oc-app-d92cd.web.app) -->
 
-## Learn More
+# Technical Specifications
 
-To learn more about Next.js, take a look at the following resources:
+- React
+- Node.js
+- Postgres
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Instructions
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# nextjs-meetups
+<!--
+1. Clone
+2. Change config.env file in config folder
+3. Run `npm install` in the "client" folder and in the "server" folder
+4. Run the Backed `npm start` in the "server" folder
+5. Run the Frontend `npm start` in the "client" folder -->
