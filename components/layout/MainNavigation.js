@@ -5,7 +5,7 @@ import classes from './MainNavigation.module.css';
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Places</div>
+      <div className={classes.logo}>Places</div>
       <nav>
         <ul>
           <li>
