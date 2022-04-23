@@ -11,8 +11,19 @@ const DUMMY_POSTS = [
   },
 ];
 
-const HomePage = () => {
-  return <PlaceList places={DUMMY_POSTS} />;
+const HomePage = (props) => {
+  return <PlaceList places={props.places} />;
 };
+
+export async function getStaticProps() {
+  // fetch from API and render before component mounts
+  // wont be execute in the client side
+  // executed during build
+  return {
+    props: {
+      places: DUMMY_POSTS,
+    },
+  };
+}
 
 export default HomePage;
