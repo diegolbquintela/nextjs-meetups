@@ -1,18 +1,18 @@
-import { Link } from 'react';
+import Link from 'next/link';
 
 import classes from './MainNavigation.module.css';
 
 function MainNavigation() {
   return (
     <header className={classes.header}>
-      <div className={classes.logo}>React Meetups</div>
+      <div className={classes.logo}>React Places</div>
       <nav>
         <ul>
           <li>
-            <Link to="/">All Meetups</Link>
+            <Link href="/">All Places</Link>
           </li>
           <li>
-            <Link to="/new-meetup">Add New Meetup</Link>
+            <Link href="/new-place">Add New Place</Link>
           </li>
         </ul>
       </nav>
